@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ..; cp -u --update *.html .
+cd .. cp -u --update *.html .
