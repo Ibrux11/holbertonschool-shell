@@ -1,2 +1,2 @@
 #!/bin/bash
-cd .. cp -u --update *.html .
+find . -maxdepth 1 -name "*.html" -exec cp --update -t .. {} +
