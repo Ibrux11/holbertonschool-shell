@@ -1,2 +1,2 @@
 #!/bin/bash
-fiile -b iamafile
+file -b iamafile
