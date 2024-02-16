@@ -1,2 +1,2 @@
 #!/bin/bash
-timeout 30 bash -c 'ls -1t  head -10
+ls -lt | head -n 10
