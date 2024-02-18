@@ -1,2 +1,2 @@
 #!/bin/bash
-power=$POWER divide=$DIVIDE result=$((power / divide)) echo $result
+result=$((power / divide)) echo 
