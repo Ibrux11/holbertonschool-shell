@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | grep -o ":" | wc -l
+find /PATH/action -mindepth 1 -maxdepth 1 -type d | grep -c
