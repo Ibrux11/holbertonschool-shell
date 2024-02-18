@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$((power / divide)) printf "%\n"  $result   
+result=$(( power / divide )) printf "%\n"  $result   
