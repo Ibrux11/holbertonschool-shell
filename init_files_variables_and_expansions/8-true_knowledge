@@ -1,2 +1,2 @@
 #!/bin/bash
-(TRUEKNOWLEDGE=$TRUEKNOWLEDGE result=$((128 + TRUEKNOWLEDGE)) echo "Résultat de l'addition de 128 avec TRUEKNOWLEDGE : $result")
+echo $((128 + $TRUEKNOWLEDGE)) 
