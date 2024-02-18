@@ -1,2 +1,2 @@
 #!/bin/bash
-binary=$BINARY decimal=$(echo "ibase=2 $binary" | bc) && echo "Nombre en base 10 : $decimal"
+$((2#$BINARY))
